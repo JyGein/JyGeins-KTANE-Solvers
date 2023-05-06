@@ -6,5 +6,5 @@ Current Valid options are:
 - MagentaCipher  
 - ALetter  
 
-Be Sure to type it exactly or it wont work.  
+Be sure to type it exactly or it wont work.  
 Also the programs are v case sensitive.
