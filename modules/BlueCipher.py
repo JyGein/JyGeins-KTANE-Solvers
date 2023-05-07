@@ -43,9 +43,9 @@ def bluecipher(display1, display2, display3, display4, numofindicators):
   return bluecipherstep3(decrypt1, encrypt1)
 
 def run():
-    display1 = input("What does the First display say?: ")
+    display1 = input("What does the First display say?: ").upper()
     display2 = input("What does the Second display say?: ")
     display3 = input("What does the Third display say?: ")
-    display4 = input("What does the Fourth display say?: ")
+    display4 = input("What does the Fourth display say?: ").upper()
     numofindicators = int(input("What is the Number of Indicators?: "))
     print('The Decrypted word is:', bluecipher(display1, display2, display3, display4, numofindicators))
