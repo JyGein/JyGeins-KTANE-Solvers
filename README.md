@@ -1,5 +1,6 @@
 # JyGeins-KTANE-Solvers
 
+To use the  program you just need to download the exe file [here](https://github.com/JyGein/JyGeins-KTANE-Solvers/releases)  
 Running the exe file to bring up a command promt where you will be prompted with what Module you want to solve.
 
 Current Valid options are:  
@@ -7,5 +8,4 @@ Current Valid options are:
 - ALetter  
 - BlueCipher
 
-Be sure to type it exactly or it wont work.  
-Also the programs are v case sensitive.
+Be sure to type it exactly or it wont work!
