@@ -5,6 +5,7 @@ Running the exe file to bring up a command promt where you will be prompted with
 Current Valid options are:  
 - MagentaCipher  
 - ALetter  
+- BlueCipher
 
 Be sure to type it exactly or it wont work.  
 Also the programs are v case sensitive.
