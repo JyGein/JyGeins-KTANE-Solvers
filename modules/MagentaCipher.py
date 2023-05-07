@@ -88,8 +88,8 @@ def magentacipher(Serial, display1, display2, display3):
   return magentacipherstep3(display3, encrypt3)
 
 def run():
-    Serial = input("What is the Serial Number?: ")
-    display1 = input("What does the First display say?: ")
+    Serial = input("What is the Serial Number?: ").upper()
+    display1 = input("What does the First display say?: ").upper()
     display2 = int(input("What does the Second display say?: "))
-    display3 = input("What does the Third display say?: ")
+    display3 = input("What does the Third display say?: ").upper()
     print('The Decrypted word is:', magentacipher(Serial, display1, display2, display3))
