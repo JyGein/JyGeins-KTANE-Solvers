@@ -92,4 +92,4 @@ def run():
     display1 = input("What does the First display say?: ")
     display2 = int(input("What does the Second display say?: "))
     display3 = input("What does the Third display say?: ")
-    return magentacipher(Serial, display1, display2, display3)
+    print('The Decrypted word is:', magentacipher(Serial, display1, display2, display3))

@@ -26,4 +26,4 @@ def ALetter(Serial, First_Letter):
 def run():
     Serial = input('Whats the Serial Number?: ')
     First_Letter = input('Whats the First Letter?: ')
-    return ALetter(Serial, First_Letter)
+    print("Your Solution Sequence is: ", ALetter(Serial, First_Letter))
