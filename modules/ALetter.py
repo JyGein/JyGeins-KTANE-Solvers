@@ -3,17 +3,17 @@ def ALetter(Serial, First_Letter):
   FirstDigit = 0
   for char in Serial:
     if char.isdigit():
-      FirstDigit += int(char)
+      FirstDigit = int(char)
       break
 
   FirstLetter = ''
   for char in Serial:
-    if 64 < ord(char) < 90:
-      FirstLetter += char
+    if 64 < ord(char) < 91:
+      FirstLetter = char
       break
 
   alphabet = [chr(i) for i in range(ord('A'),ord('Z')+1)]
-  RemainingList = list(alphabet)
+  RemainingList = alphabet.copy()
   Solution = ''
   Solution += RemainingList.pop(alphabet.index(First_Letter))
   Solution += RemainingList.pop(alphabet.index(FirstLetter))
@@ -24,6 +24,6 @@ def ALetter(Serial, First_Letter):
   return Solution
 
 def run():
-    Serial = input('Whats the Serial Number?: ')
-    First_Letter = input('Whats the First Letter?: ')
+    Serial = input('Whats the Serial Number?: ').upper()
+    First_Letter = input('Whats the First Letter?: ').upper()
     print("Your Solution Sequence is: ", ALetter(Serial, First_Letter))
