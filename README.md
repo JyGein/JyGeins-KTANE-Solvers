@@ -7,5 +7,6 @@ Current Valid options are:
 - MagentaCipher  
 - ALetter  
 - BlueCipher
+- FizzBuzz
 
 Be sure to type it exactly or it wont work!
